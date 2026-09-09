@@ -54,7 +54,7 @@ def segundo_maior(lista):
         if numero > maior:
             segundo = maior
             maior = numero
-        elif maior > numero > segundo:
+        elif numero > segundo:
             segundo = numero
 
     return segundo if segundo != float('-inf') else None
